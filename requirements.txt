@@ -1,14 +1,1 @@
-# Core requirements (Python 3.11+ stdlib only)
-# No external dependencies required for basic functionality
-
-# Optional: For building Windows executable
-pyinstaller>=5.0.0
-
-# Optional: For ONNX embeddings (future enhancement)
-# onnxruntime>=1.15.0
-# numpy>=1.24.0
-
-# Optional: For advanced ML features (future enhancement)
-# sentence-transformers>=2.2.0
-# scikit-learn>=1.3.0
-# torch>=2.0.0
+# Standard library only.
