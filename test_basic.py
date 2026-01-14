@@ -31,20 +31,20 @@ def test_metadata_extraction():
     
     # Test question detection
     flags, intent, topics = MetadataExtractor.extract_metadata("How do I use Python?", "user")
-    assert flags['is_question'] == True, "Should detect question"
+    assert flags['is_question'], "Should detect question"
     assert intent == "question", "Should classify as question"
     
     # Test code detection
     flags, intent, topics = MetadataExtractor.extract_metadata("```python\ndef hello():\n    pass\n```", "assistant")
-    assert flags['is_code'] == True, "Should detect code"
+    assert flags['is_code'], "Should detect code"
     
     # Test list detection
     flags, intent, topics = MetadataExtractor.extract_metadata("- Item 1\n- Item 2\n- Item 3", "assistant")
-    assert flags['is_list'] == True, "Should detect list"
+    assert flags['is_list'], "Should detect list"
     
     # Test steps detection
     flags, intent, topics = MetadataExtractor.extract_metadata("1. First\n2. Second\n3. Third", "assistant")
-    assert flags['has_steps'] == True, "Should detect steps"
+    assert flags['has_steps'], "Should detect steps"
     
     print("✓ Metadata extraction tests passed")
 

@@ -1,11 +1,21 @@
 #!/usr/bin/env python3
-import sqlite3, json, hashlib, uuid, zipfile, os, re, sys, logging, tempfile, shutil
+import sqlite3
+import json
+import hashlib
+import uuid
+import zipfile
+import os
+import re
+import sys
+import logging
+import tempfile
+import shutil
+import traceback
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Optional, Tuple, Any
 from dataclasses import dataclass, asdict, field
 from collections import defaultdict, Counter
-import traceback
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
