@@ -37,7 +37,8 @@ MANIFEST
 
 # PyInstaller
 *.manifest
-*.spec
+# Keep export_studio.spec for building
+# *.spec
 
 # Testing
 .pytest_cache/
