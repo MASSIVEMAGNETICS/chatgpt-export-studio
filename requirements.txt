@@ -1,17 +1,14 @@
-# Core dependencies
-numpy>=1.24.0
-pandas>=2.0.0
-sentence-transformers>=2.2.0
-chromadb>=0.4.0
+# Core requirements (Python 3.11+ stdlib only)
+# No external dependencies required for basic functionality
 
-# Data processing
-python-dateutil>=2.8.0
+# Optional: For building Windows executable
+pyinstaller>=5.0.0
 
-# CLI
-click>=8.1.0
-rich>=13.0.0
-tabulate>=0.9.0
+# Optional: For ONNX embeddings (future enhancement)
+# onnxruntime>=1.15.0
+# numpy>=1.24.0
 
-# Optional: for advanced model training
-scikit-learn>=1.3.0
-torch>=2.0.0
+# Optional: For advanced ML features (future enhancement)
+# sentence-transformers>=2.2.0
+# scikit-learn>=1.3.0
+# torch>=2.0.0

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "conv-001",
+    "title": "Getting Started with Python",
+    "create_time": 1704067200.0,
+    "update_time": 1704070800.0,
+    "mapping": {
+      "msg-001": {
+        "id": "msg-001",
+        "parent": null,
+        "message": {
+          "id": "msg-001",
+          "author": {"role": "user"},
+          "create_time": 1704067200.0,
+          "content": {
+            "parts": ["How do I get started with Python programming?"]
+          }
+        }
+      },
+      "msg-002": {
+        "id": "msg-002",
+        "parent": "msg-001",
+        "message": {
+          "id": "msg-002",
+          "author": {"role": "assistant"},
+          "create_time": 1704067300.0,
+          "content": {
+            "parts": ["Getting started with Python is easy! Here are the steps:\n\n1. Install Python from python.org\n2. Choose an IDE (VS Code, PyCharm, or IDLE)\n3. Write your first program:\n\n```python\nprint('Hello, World!')\n```\n\n4. Learn the basics: variables, loops, functions\n5. Practice with small projects"]
+          }
+        }
+      },
+      "msg-003": {
+        "id": "msg-003",
+        "parent": "msg-002",
+        "message": {
+          "id": "msg-003",
+          "author": {"role": "user"},
+          "create_time": 1704067400.0,
+          "content": {
+            "parts": ["What are some good beginner projects?"]
+          }
+        }
+      },
+      "msg-004": {
+        "id": "msg-004",
+        "parent": "msg-003",
+        "message": {
+          "id": "msg-004",
+          "author": {"role": "assistant"},
+          "create_time": 1704067500.0,
+          "content": {
+            "parts": ["Great beginner projects include:\n\n- Calculator\n- To-do list app\n- Web scraper\n- Password generator\n- Simple game (like tic-tac-toe)\n- Weather app using APIs\n\nStart simple and gradually increase complexity!"]
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "conv-002",
+    "title": "Machine Learning Basics",
+    "create_time": 1704153600.0,
+    "update_time": 1704157200.0,
+    "mapping": {
+      "msg-005": {
+        "id": "msg-005",
+        "parent": null,
+        "message": {
+          "id": "msg-005",
+          "author": {"role": "user"},
+          "create_time": 1704153600.0,
+          "content": {
+            "parts": ["Explain machine learning in simple terms"]
+          }
+        }
+      },
+      "msg-006": {
+        "id": "msg-006",
+        "parent": "msg-005",
+        "message": {
+          "id": "msg-006",
+          "author": {"role": "assistant"},
+          "create_time": 1704153700.0,
+          "content": {
+            "parts": ["Machine learning is teaching computers to learn from data without explicit programming.\n\nKey concepts:\n- Training: Feeding data to algorithms\n- Patterns: Algorithms find patterns\n- Prediction: Using patterns to make predictions\n\nThink of it like teaching a child to recognize animals by showing them many pictures!"]
+          }
+        }
+      }
+    }
+  }
+]
